@@ -90,6 +90,22 @@ Cmd --> Command
 | 切换标签     | Cmd-S-Left/Right |
 | 收藏页面     | Cmd-D            |
 
+### 保存 Safari 里正在播放的视频
+
+```sh
+$ su
+# cd /private/var/folders
+# ls
+nk zz
+# cd nk
+# ls
+zy3770994vqg83xvmbc9pd0m0000gn
+# cd zy3770994vqg83xvmbc9pd0m0000gn/T
+# open .
+```
+
+然后复制里面叫 FlashTmp.xxx 的文件，改名为 FlashTmp.flv。（操作过程中保持视频在播放状态）
+
 ### Terminal
 
 | 功能             | 快捷键  |
@@ -101,3 +117,21 @@ Cmd --> Command
 ### WireShark
 
 使用 WireShark 1.99 开发版，可以不依赖于 X11，界面基于 Qt，更加美观，符合 Mac 界面风格。
+
+### 截图
+
+| 功能               | 快捷键       |
+|:-------------------|:-------------|
+| 全屏截图保存到桌面 | Cmd-S-3      |
+| 选区截图保存到桌面 | Cmd-S-4      |
+| 窗口截图保存到桌面 | Cmd-S-4 空格 |
+| QQ 截图            | Cmd-S-A      |
+
+去除窗口截图时的阴影：
+
+```sh
+defaults write com.apple.screencapture disable-shadow -bool TRUE
+Killall SystemUIServer
+```
+
+如果要保留窗口截图时的阴影，则将 TRUE 改为 FALSE。
