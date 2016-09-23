@@ -1,6 +1,6 @@
-# 码志
+# 妙木山的蛤蟆
 
-我的个人博客：<http://mazhuang.org>，欢迎 Star 和 Fork。
+我的个人博客：<https://libin0410.github.io>，Fork自<http://mazhuang.org>。
 
 ## 概览
 
@@ -12,9 +12,9 @@
 
 ## 效果预览
 
-### [在线预览 &rarr;](http://mazhuang.org)
+### [在线预览 &rarr;](http://libin0410.github.io)
 
-![screenshot home](http://mazhuang.org/assets/images/screenshots/home.png)
+![screenshot home](http://libin0410.github.io/assets/images/screenshots/home.png)
 
 ## Fork 指南
 
