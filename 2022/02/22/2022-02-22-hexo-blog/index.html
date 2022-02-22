@@ -1,5 +1,5 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>使用hexo和github实现自己的博客 | Hexo</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"><meta name="generator" content="Hexo 6.0.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">使用hexo和github实现自己的博客</h1><a id="logo" href="/.">Hexo</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">使用hexo和github实现自己的博客</h1><div class="post-meta">2022-02-22</div><div class="post-content"><h1 id="1、相关步骤"><a href="#1、相关步骤" class="headerlink" title="1、相关步骤"></a>1、相关步骤</h1><h2 id="1-1-安装node-js和git"><a href="#1-1-安装node-js和git" class="headerlink" title="1.1 安装node.js和git"></a>1.1 安装node.js和git</h2><h2 id="1-2-创建github账户和github-io-repository"><a href="#1-2-创建github账户和github-io-repository" class="headerlink" title="1.2 创建github账户和github.io repository"></a>1.2 创建github账户和github.io repository</h2><p><img src="/.com//image-20220222142206127.png" alt="image-20220222142206127"></p>
-<p><img src="/.com//image-20220222142230883.png" alt="image-20220222142230883"></p>
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>使用hexo和github实现自己的博客 | Hexo</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"><meta name="generator" content="Hexo 6.0.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">使用hexo和github实现自己的博客</h1><a id="logo" href="/.">Hexo</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">使用hexo和github实现自己的博客</h1><div class="post-meta">2022-02-22</div><div class="post-content"><h1 id="1、相关步骤"><a href="#1、相关步骤" class="headerlink" title="1、相关步骤"></a>1、相关步骤</h1><h2 id="1-1-安装node-js和git"><a href="#1-1-安装node-js和git" class="headerlink" title="1.1 安装node.js和git"></a>1.1 安装node.js和git</h2><h2 id="1-2-创建github账户和github-io-repository"><a href="#1-2-创建github账户和github-io-repository" class="headerlink" title="1.2 创建github账户和github.io repository"></a>1.2 创建github账户和github.io repository</h2><p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222142206127.png" alt="image-20220222142206127"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222142230883.png" alt="image-20220222142230883"></p>
 <h2 id="1-3-配置hexo"><a href="#1-3-配置hexo" class="headerlink" title="1.3 配置hexo"></a>1.3 配置hexo</h2><p>在某一个文件夹下执行以下命令安装hexo：</p>
 <blockquote>
 <p>npm install hexo -g 或者 cnpm install hexo -g</p>
@@ -14,34 +14,34 @@
 <p>npm install //在该文件夹下，安装所需要的所有组件</p>
 <p>hexo s //开启服务器，正式体验hexo</p>
 </blockquote>
-<p><img src="/.com//image-20220222143714240.png" alt="image-20220222143714240"></p>
-<h1 id="2、将hexo与github-pages联系起来"><a href="#2、将hexo与github-pages联系起来" class="headerlink" title="2、将hexo与github pages联系起来"></a>2、将hexo与github pages联系起来</h1><h2 id="2-1-设置git的username-和email"><a href="#2-1-设置git的username-和email" class="headerlink" title="2.1 设置git的username 和email"></a>2.1 设置git的username 和email</h2><p><img src="/.com//image-20220222150410605.png" alt="image-20220222150410605"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222143714240.png" alt="image-20220222143714240"></p>
+<h1 id="2、将hexo与github-pages联系起来"><a href="#2、将hexo与github-pages联系起来" class="headerlink" title="2、将hexo与github pages联系起来"></a>2、将hexo与github pages联系起来</h1><h2 id="2-1-设置git的username-和email"><a href="#2-1-设置git的username-和email" class="headerlink" title="2.1 设置git的username 和email"></a>2.1 设置git的username 和email</h2><p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222150410605.png" alt="image-20220222150410605"></p>
 <p>进入d:/blog/.ssh文件夹</p>
-<p><img src="/.com//image-20220222150457356.png" alt="image-20220222150457356"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222150457356.png" alt="image-20220222150457356"></p>
 <p>列出该文件夹下内容</p>
-<p><img src="/.com//image-20220222150607507.png" alt="image-20220222150607507"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222150607507.png" alt="image-20220222150607507"></p>
 <p>产生秘钥</p>
-<p><img src="/.com//image-20220222150659835.png" alt="image-20220222150659835"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222150659835.png" alt="image-20220222150659835"></p>
 <p>添加秘钥到ssh-agent</p>
-<p><img src="/.com//image-20220222150813566.png" alt="image-20220222150813566"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222150813566.png" alt="image-20220222150813566"></p>
 <p>添加ssh key到ssh-agent</p>
-<p><img src="/.com//image-20220222151014725.png" alt="image-20220222151014725"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222151014725.png" alt="image-20220222151014725"></p>
 <h2 id="2-2-登录github"><a href="#2-2-登录github" class="headerlink" title="2.2 登录github"></a>2.2 登录github</h2><p>点击头像下的settings,添加ssh</p>
-<p><img src="/.com//image-20220222151142863.png" alt="image-20220222151142863"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222151142863.png" alt="image-20220222151142863"></p>
 <p>新建一个new ssh key，将id_rsa.pub文件里的内容复制上去</p>
-<p><img src="/.com//image-20220222151203069.png" alt="image-20220222151203069"></p>
-<h2 id="2-3-验证是否成功"><a href="#2-3-验证是否成功" class="headerlink" title="2.3 验证是否成功"></a>2.3 验证是否成功</h2><p><img src="/.com//image-20220222151230343.png" alt="image-20220222151230343"></p>
-<h2 id="2-4-问题"><a href="#2-4-问题" class="headerlink" title="2.4 问题"></a>2.4 问题</h2><p><img src="/.com//image-20220222151258288.png" alt="image-20220222151258288"></p>
-<h2 id="2-5-部署"><a href="#2-5-部署" class="headerlink" title="2.5 部署"></a>2.5 部署</h2><p><img src="/.com//image-20220222151620414.png" alt="image-20220222151620414"></p>
-<p><img src="/.com//image-20220222151703900.png" alt="image-20220222151703900"></p>
-<p><img src="/.com//image-20220222155954967.png" alt="image-20220222155954967"></p>
-<h2 id="2-6-hexo博客目录结构"><a href="#2-6-hexo博客目录结构" class="headerlink" title="2.6 hexo博客目录结构"></a>2.6 hexo博客目录结构</h2><p><img src="/.com//image-20220222152536820.png" alt="image-20220222152536820"></p>
-<h2 id="2-7-新建一篇博客"><a href="#2-7-新建一篇博客" class="headerlink" title="2.7 新建一篇博客"></a>2.7 新建一篇博客</h2><p><img src="/.com//image-20220222152229374.png" alt="image-20220222152229374"></p>
-<p><img src="/.com//image-20220222152600547.png" alt="image-20220222152600547"></p>
-<p><img src="/.com//image-20220222152626801.png" alt="image-20220222152626801"></p>
-<p><img src="/.com//image-20220222152635131.png" alt="image-20220222152635131"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222151203069.png" alt="image-20220222151203069"></p>
+<h2 id="2-3-验证是否成功"><a href="#2-3-验证是否成功" class="headerlink" title="2.3 验证是否成功"></a>2.3 验证是否成功</h2><p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222151230343.png" alt="image-20220222151230343"></p>
+<h2 id="2-4-问题"><a href="#2-4-问题" class="headerlink" title="2.4 问题"></a>2.4 问题</h2><p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222151258288.png" alt="image-20220222151258288"></p>
+<h2 id="2-5-部署"><a href="#2-5-部署" class="headerlink" title="2.5 部署"></a>2.5 部署</h2><p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222151620414.png" alt="image-20220222151620414"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222151703900.png" alt="image-20220222151703900"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222155954967.png" alt="image-20220222155954967"></p>
+<h2 id="2-6-hexo博客目录结构"><a href="#2-6-hexo博客目录结构" class="headerlink" title="2.6 hexo博客目录结构"></a>2.6 hexo博客目录结构</h2><p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222152536820.png" alt="image-20220222152536820"></p>
+<h2 id="2-7-新建一篇博客"><a href="#2-7-新建一篇博客" class="headerlink" title="2.7 新建一篇博客"></a>2.7 新建一篇博客</h2><p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222152229374.png" alt="image-20220222152229374"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222152600547.png" alt="image-20220222152600547"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222152626801.png" alt="image-20220222152626801"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222152635131.png" alt="image-20220222152635131"></p>
 <p>部署成功后访问你的地址：http://用户名.github.io。那么将看到生成的文章</p>
-<h2 id="2-8-hexo相关操作"><a href="#2-8-hexo相关操作" class="headerlink" title="2.8 hexo相关操作"></a>2.8 hexo相关操作</h2><p><img src="/.com//image-20220222155800792.png" alt="image-20220222155800792"></p>
+<h2 id="2-8-hexo相关操作"><a href="#2-8-hexo相关操作" class="headerlink" title="2.8 hexo相关操作"></a>2.8 hexo相关操作</h2><p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222155800792.png" alt="image-20220222155800792"></p>
 <h3 id="2-8-1-自动部署"><a href="#2-8-1-自动部署" class="headerlink" title="2.8.1 自动部署"></a>2.8.1 自动部署</h3><blockquote>
 <p>hexo clean</p>
 <p>hexo deploy</p>
@@ -58,15 +58,15 @@
 
 
 
-<h3 id="2-8-2-如何创建文章"><a href="#2-8-2-如何创建文章" class="headerlink" title="2.8.2 如何创建文章"></a>2.8.2 如何创建文章</h3><p><img src="/.com//image-20220222154221060.png" alt="image-20220222154221060"></p>
-<p><img src="/.com//image-20220222160157238.png" alt="image-20220222160157238"></p>
+<h3 id="2-8-2-如何创建文章"><a href="#2-8-2-如何创建文章" class="headerlink" title="2.8.2 如何创建文章"></a>2.8.2 如何创建文章</h3><p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222154221060.png" alt="image-20220222154221060"></p>
+<p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222160157238.png" alt="image-20220222160157238"></p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: postName #文章页面上的显示名称，一般是中文</span><br><span class="line"><span class="attr">date</span>: <span class="number">2013</span>-<span class="number">12</span>-<span class="number">02</span> <span class="number">15</span>:<span class="number">30</span>:<span class="number">16</span> #文章生成时间，一般不改，当然也可以任意修改</span><br><span class="line"><span class="attr">categories</span>: 默认分类 #分类</span><br><span class="line"><span class="attr">tags</span>: [tag1,tag2,tag3] #文章标签，可空，多标签请用格式，注意:后面有个空格</span><br><span class="line"><span class="attr">description</span>: 附加一段文章摘要，字数最好在<span class="number">140</span>字以内，会出现在meta的description里面</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">以下是正文</span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="2-8-3-如何让博文列表不显示全部内容"><a href="#2-8-3-如何让博文列表不显示全部内容" class="headerlink" title="2.8.3 如何让博文列表不显示全部内容"></a>2.8.3 如何让博文列表不显示全部内容</h3><p><img src="/.com//image-20220222160253284.png" alt="image-20220222160253284"></p>
-<h3 id="2-8-4-更换主题"><a href="#2-8-4-更换主题" class="headerlink" title="2.8.4 更换主题"></a>2.8.4 更换主题</h3><p><img src="/.com//image-20220222154302128.png" alt="image-20220222154302128"></p>
-<h1 id="3、hexo常用命令"><a href="#3、hexo常用命令" class="headerlink" title="3、hexo常用命令"></a>3、hexo常用命令</h1><p><img src="/.com//image-20220222160044591.png" alt="image-20220222160044591"></p>
+<h3 id="2-8-3-如何让博文列表不显示全部内容"><a href="#2-8-3-如何让博文列表不显示全部内容" class="headerlink" title="2.8.3 如何让博文列表不显示全部内容"></a>2.8.3 如何让博文列表不显示全部内容</h3><p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222160253284.png" alt="image-20220222160253284"></p>
+<h3 id="2-8-4-更换主题"><a href="#2-8-4-更换主题" class="headerlink" title="2.8.4 更换主题"></a>2.8.4 更换主题</h3><p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222154302128.png" alt="image-20220222154302128"></p>
+<h1 id="3、hexo常用命令"><a href="#3、hexo常用命令" class="headerlink" title="3、hexo常用命令"></a>3、hexo常用命令</h1><p><img src="/2022/02/22/2022-02-22-hexo-blog/image-20220222160044591.png" alt="image-20220222160044591"></p>
 <h1 id="4、hexo主题"><a href="#4、hexo主题" class="headerlink" title="4、hexo主题"></a>4、hexo主题</h1><h1 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h1><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/fengxiongZz/p/7707219.html">使用Hexo+Github一步步搭建属于自己的博客</a></p>
 <p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/fengxiongZz/p/7707568.html">使用Hexo+Github一步步搭建属于自己的博客-切换主题以及其他内容设置</a></p>
 <p><a target="_blank" rel="noopener" href="https://www.haomwei.com/">屠-成-主题</a></p>
